@@ -52,6 +52,7 @@ app.use(
 );
 app.use(passport.initialize());
 app.use(passport.session());
+
 // Views
 
 app.set("views", "./views/pages");

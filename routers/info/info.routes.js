@@ -15,6 +15,7 @@ router.get('/', (req, res) => {
         cpus: os.cpus().length
 
     }
+    console.log(data)
     res.render(path.join(process.cwd(), 'Public/views/pages/info.ejs'), { data })
 })
 
